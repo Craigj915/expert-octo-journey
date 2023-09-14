@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bdo Class Selection</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="index.css" rel="stylesheet"></link>
+  <script defer src="index.js"></script>
+  
+
+
+</head>
+
+
+
+<body style="background-image: url(Assets/¤2.png)"
+  class="bg-cover bg-fixed bg-center bg-no-repeat flex justify-center items-center h-screen bg-gray-100">
+
+  <div class="relative w-[1600px] h-[900px] border-2 shadow-md shadow-gray-400 bg-red-500">
+    <img class="object-cover w-full h-full" src="Assets/2023-09-14_-2036721428.PNG" alt="Your Image">
+    <div class="absolute inset-0 flex justify-center items-center">
+      <div id="charanameBox" class=""> <!--DONT HIDE-->
+        <input id="charaname" type="text" class="border-gray-500 rounded-md p-2" placeholder="Enter Username" />
+        <input id="charaEnter" type="button" onclick="validateCharaname()"/>
+      </div>
+      <div id="questions">
+        <div class="absolute inset-[480px] flex justify-center">
+          <div class="text-white  text-2xl">
+            <p id="questionOutput" class=" textShadow hidden"></p><!--hidden-->
+          </div>
+        </div>
+    </div>
+    <div class="absolute bottom-36 object-center">
+      <div id="answers" class="hidden"><!--hidden-->
+        <ul class="flex justify-center space-x-8">
+          <li 
+          class="w-[200px] h-[100px]"> 
+            <button onclick="nextQuestion()" id="button1" class="w-full h-full border-2 shadow-md shadow-gray-400 bg-blue-200 hover:bg-blue-300">
+              <p id="answer1" class="flex justify-center" ></p>
+              <p id="trait1" class="flex justify-center"></p>
+            </button>
+          </li>         
+          <li 
+          class="w-[200px] h-[100px]"> 
+            <button onclick="nextQuestion()" id="button2" class="w-full h-full border-2 shadow-md shadow-gray-400 bg-blue-200 hover:bg-blue-300">
+              <p id="answer2" class="flex justify-center" ></p>
+              <p id="trait2" class="flex justify-center"></p>
+            </button>
+          </li>         
+          <li
+          class="w-[200px] h-[100px]"> 
+            <button onclick="nextQuestion()" id="button3" class="w-full h-full border-2 shadow-md shadow-gray-400 bg-blue-200 hover:bg-blue-300">
+              <p id="answer3" class="flex justify-center" ></p>
+              <p id="trait3" class="flex justify-center"></p>
+            </button>
+          </li>                
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="characterSelect" class="hidden">
+  <div class="absolute inset-4 grid grid-cols-2 gap-4">
+    <div class="bg-clip-content p-4 rounded-lg shadow-lg image-container image-containerColor-gray relative">
+      <img src="Assets/Classes/Kuno.png" class="rounded-lg w-full h-full object-cover" alt="Image 1">
+      <div class="overlay absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 hover:opacity-100 rounded-lg transition-opacity duration-300 flex flex-col justify-center items-center">
+        <h3 class="text-xl font-bold mb-2">Class name</h3>
+        <p>class info</p>
+      </div>
+  </div>
+    <div class="bg-clip-content p-4 rounded-lg shadow-lg image-container relative">
+      <img src="Assets/Classes/Lahn.png" class="rounded-lg w-full h-full object-cover" alt="Image 2">
+      <div class="overlay absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 hover:opacity-100 rounded-lg transition-opacity duration-300 flex flex-col justify-center items-center">
+        <h3 class="text-xl font-bold mb-2">Class name</h3>
+        <p>class info</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+</body>
+
+
+<!-- <body class="bg-cover bg-fixed bg-center bg-no-repeat"
+  style="background-image: url(Assets/¤2.png)">
+
+ 
+    <div id="box1" class="px-60 py-20">
+      <div class="mx-auto my-auto bg-contain bg-fixed bg-center bg-no-repeat" 
+      style="background-image: url(Assets/2021-10-21_249241952.PNG)" 
+      id="charanameBox">
+      
+        <input
+        id="charaname"
+        type="text"
+        class="border-gray-500 rounded-md p-2"
+        placeholder="Enter Username"
+      />
+      <input id="charaEnter" type="button" onclick="validateCharaname()"/>
+      <div id="question" class="relative bottom-80 flex justify-center">
+          <div class="text-white text-2xl">
+            <p id="questionOutput" class="hidden"></p>
+          </div>
+        </div>
+        <div id="answers" class="relative bottom-48 hidden">
+        <ul class="flex justify-center justify-between sm:mx-60 lg:mx-[440px]">
+          <li 
+          class="w-[200px] h-[100px]"> 
+            <div class="w-full h-full border-2 shadow-md shadow-gray-400 bg-blue-200 hover:bg-blue-300">
+              <p id="answer1" class="flex justify-center">1</p>
+            </div>
+          </li>         
+          <li 
+          class="w-[200px] h-[100px]"> 
+            <div class="w-full h-full border-2 shadow-md shadow-gray-400 bg-blue-200 hover:bg-blue-300">
+              <p id="answer2" class="flex justify-center">2</p>
+            </div>
+          </li>         
+          <li
+          class="w-[200px] h-[100px]"> 
+            <div class="w-full h-full border-2 shadow-md shadow-gray-400 bg-blue-200 hover:bg-blue-300">
+              <p id="answer3" class="flex justify-center">3</p>
+            </div>
+          </li>                
+        </ul>
+      </div>
+    </div>
+</div>
+</body> -->
+
+<!-- <img src="Assets/2021-10-21_249241952.PNG" class="border-2 shadow-md shadow-gray-400"/> -->
+<!-- Character name box fo that questions are personalised to character -->
+
+
+
+
+
+
+
+
+
+
+<style>
+  body {
+    overflow: hidden;
+    /* Hide scrollbars */
+  }
+</style>
+
+</html>

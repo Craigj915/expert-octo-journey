@@ -1,0 +1,80 @@
+[
+  {
+    "question": "Where will ${cName} stand in battle?",
+    "choice": {
+      "1": "At the front, protecting my allies",
+      "2": "To the rear, raining spells from the heavens",
+      "3": "Behind the enemy, slaughtering their mages and archers"
+    },
+    "traits": {
+      "1": "tank",
+      "2": "range",
+      "3": "assassin"
+    }
+  },
+  {
+    "question": "What gender is ${cName}?",
+    "choice": {
+      "1": "${cName} is Male",
+      "2": "${cName} is Female",
+      "3": "I do not care"
+    },
+    "traits": {
+      "1": "Male",
+      "2": "Female",
+      "3": "Male,Female"
+    }
+  },
+  {
+    "question": "What will ${cName} do in battle?",
+    "choice": {
+      "1": "Run circles around my enemy",
+      "2": "Obliterate my foe",
+      "3": "Sneak behind my rivals"
+    },
+    "traits": {
+      "1": "mobility",
+      "2": "damage",
+      "3": "stealth"
+    }
+  },
+  {
+    "question": "hahahaa ${cName}?",
+    "choice": {
+      "1": "Call upon my familiar",
+      "2": "Pretecc",
+      "3": "Stab Stab Stab"
+    },
+    "traits": {
+      "1": "summon",
+      "2": "support",
+      "3": "melee"
+    }
+  },
+  {
+    "question": "What gender is ${cName}?",
+    "choice": {
+      "1": "${cName} is Male",
+      "2": "${cName} is Female",
+      "3": "I do not care"
+    },
+    "traits": {
+      "1": "male",
+      "2": "Female",
+      "3": "Male,Female"
+    }
+  },
+  {
+    "question": "What gender is ${cName}?",
+    "choice": {
+      "1": "${cName} is Male",
+      "2": "${cName} is Female",
+      "3": "I do not care"
+    },
+    "traits": {
+      "1": "male",
+      "2": "Female",
+      "3": "Male,Female"
+    }
+  }
+]
