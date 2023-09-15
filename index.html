@@ -62,21 +62,29 @@
     </div>
   </div>
   <div id="characterSelect" class="hidden">
-  <div class="absolute inset-4 grid grid-cols-2 gap-4">
-    <div class="bg-clip-content p-4 rounded-lg shadow-lg image-container image-containerColor-gray relative">
-      <img src="Assets/Classes/Kuno.png" class="rounded-lg w-full h-full object-cover" alt="Image 1">
+  <div id="RemainingClassesGRID" class="absolute inset-4 grid grid-cols-3 gap-4">
+    <div id="only1RemainingClasses" class="bg-clip-content p-4 rounded-lg shadow-lg image-container image-containerColor-gray relative">
+      <img id="selectionImage1" src="" class="rounded-lg w-full h-full object-cover" alt="Image 1">
       <div class="overlay absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 hover:opacity-100 rounded-lg transition-opacity duration-300 flex flex-col justify-center items-center">
-        <h3 class="text-xl font-bold mb-2">Class name</h3>
-        <p>class info</p>
+        <h3 id="selectionTitle1" class="text-xl font-bold mb-2"></h3>
+        <p id="selectionDescription1"></p>
       </div>
   </div>
-    <div class="bg-clip-content p-4 rounded-lg shadow-lg image-container relative">
-      <img src="Assets/Classes/Lahn.png" class="rounded-lg w-full h-full object-cover" alt="Image 2">
+    <div  class="bg-clip-content p-4 rounded-lg shadow-lg image-container relative">
+      <img id="selectionImage0" src="" class="rounded-lg w-full h-full object-cover" alt="Image 2">
       <div class="overlay absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 hover:opacity-100 rounded-lg transition-opacity duration-300 flex flex-col justify-center items-center">
-        <h3 class="text-xl font-bold mb-2">Class name</h3>
-        <p>class info</p>
+        <h3 id="selectionTitle0" class="text-xl font-bold mb-2"></h3>
+        <p id="selectionDescription0"></p>
       </div>
     </div>
+    <div id="only2RemainingClasses" class="bg-clip-content p-4 rounded-lg shadow-lg image-container relative">
+    <img id="selectionImage2" src="" class="rounded-lg w-full h-full object-cover" alt="Image 2">
+      <div class="overlay absolute inset-0 bg-black bg-opacity-50 text-white opacity-0 hover:opacity-100 rounded-lg transition-opacity duration-300 flex flex-col justify-center items-center">
+        <h3 id="selectionTitle2" class="text-xl font-bold mb-2"></h3>
+        <p id="selectionDescription2"></p>
+      </div>
+    </div>
+  </div>
   </div>
   </div>
   </div>

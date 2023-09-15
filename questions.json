@@ -1,14 +1,14 @@
 [
   {
-    "question": "Where will ${cName} stand in battle?",
+    "question": "Where is your position in battle?",
     "choice": {
-      "1": "At the front, protecting my allies",
-      "2": "To the rear, raining spells from the heavens",
+      "1": "At the front, shielding my allies",
+      "2": "Protecting and buffing allies",
       "3": "Behind the enemy, slaughtering their mages and archers"
     },
     "traits": {
       "1": "tank",
-      "2": "range",
+      "2": "support",
       "3": "assassin"
     }
   },
@@ -22,24 +22,24 @@
     "traits": {
       "1": "Male",
       "2": "Female",
-      "3": "Male,Female"
+      "3": ""
     }
   },
   {
-    "question": "What will ${cName} do in battle?",
+    "question": "${cName} What is your battle strategy?",
     "choice": {
-      "1": "Run circles around my enemy",
-      "2": "Obliterate my foe",
+      "1": "Heal and save my allies",
+      "2": "Face my foe head on with allies by my side",
       "3": "Sneak behind my rivals"
     },
     "traits": {
-      "1": "mobility",
-      "2": "damage",
-      "3": "stealth"
+      "1": "heal",
+      "2": "tank",
+      "3": "assassin"
     }
   },
   {
-    "question": "hahahaa ${cName}?",
+    "question": "How do you fight ${cName}?",
     "choice": {
       "1": "Call upon my familiar",
       "2": "Pretecc",
@@ -52,29 +52,29 @@
     }
   },
   {
-    "question": "What gender is ${cName}?",
+    "question": "What weapon will you wield?",
     "choice": {
-      "1": "${cName} is Male",
-      "2": "${cName} is Female",
-      "3": "I do not care"
+      "1": "I shall slash and carve my enemy using a trusty sword",
+      "2": "I will chop my enemy with an axe",
+      "3": "I shall use any tool or weapon that I am provided"
     },
     "traits": {
-      "1": "male",
-      "2": "Female",
-      "3": "Male,Female"
+      "1": "sword",
+      "2": "axe",
+      "3": ""
     }
   },
   {
-    "question": "What gender is ${cName}?",
+    "question": "?",
     "choice": {
-      "1": "${cName} is Male",
-      "2": "${cName} is Female",
-      "3": "I do not care"
+      "1": "?",
+      "2": "??",
+      "3": "???"
     },
     "traits": {
-      "1": "male",
-      "2": "Female",
-      "3": "Male,Female"
+      "1": "mid-range",
+      "2": "melee",
+      "3": "long-range"
     }
   }
 ]

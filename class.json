@@ -1,379 +1,369 @@
 {
   "classes": [
     {
-      "class": "Warrior",
-      "male": 1,
-      "female": 0,
-      "mobility": 1,
-      "damage": 1,
-      "defence": 1,
-      "stealth": 0,
-      "support": 0,
-      "range": 0,
-      "melee": 1,
-      "tank": 1,
-      "assassin": 0,
-      "summon": 0
+      "className": "Warrior",
+        "male": 1,
+        "sword": 1,
+        "combo": 1,
+        "huge-damage": 1,
+        "melee": 1,
+        "tank": 1,
+        "info": {
+          "image": "Assets/Classes/Warrior.png",
+          "title": "Warrior",
+          "description": ""
+        }
     },
     {
-      "class": "Sorceress",
-      "male": 0,
+      "className": "Sorceress",
+        "female": 1,
+        "agile": 1,
+        "huge-damage": 1,
+        "aoe": 1,
+        "dodge": 1,
+        "mid-range": 1,
+        "info": {
+          "image": "Assets/Classes/Sorceress.png",
+          "title": "Sorceress",
+          "description": ""
+        }
+    },
+    {
+      "className": "Ranger",
+        "female": 1,
+        "bow": 1,
+        "glass-cannon": 1,
+        "long-range": 1,
+        "info": {
+          "image": "Assets/Classes/Ranger.png",
+          "title": "Ranger",
+          "description": ""
+        }
+    },
+    {
+      "className": "Berserker",
+        "male": 1,
+        "axe": 1,
+        "hyper-mobile": 1,
+        "huge-damage": 1,
+        "ultimate": 1,
+        "melee": 1,
+        "info": {
+          "image": "Assets/Classes/Berserker.png",
+          "title": "Berserker",
+          "description": ""
+        }
+    },
+    {
+      "className": "Tamer",
+        "female": 1,
+        "staff": 1,
+        "agile": 1,
+        "glass-cannon": 1,
+        "melee": 1,
+        "summon": 1,
+        "info": {
+          "image": "Assets/Classes/Tamer.png",
+          "title": "Tamer",
+          "description": ""
+        }
+    },
+    {
+      "className": "Valkyrie",
+        "female": 1,
+        "shield": 1,
+        "huge-damage": 1,
+        "ultimate": 1,
+        "support": 1,
+        "melee": 1,
+        "tank": 1,
+        "heal": 1,
+        "info": {
+          "image": "Assets/Classes/Valkyrie.png",
+          "title": "Valkyrie",
+          "description": ""
+        }
+    },
+    {
+      "className": "Musa",
+        "male": 1,
+        "spear": 1,
+        "hyper-mobile": 1,
+        "glass-cannon": 1,
+        "melee": 1,
+        "assassin": 1,
+        "info": {
+          "image": "Assets/Classes/Musa.png",
+          "title": "Musa",
+          "description": ""
+        }
+    },
+    {
+      "className": "Maehwa",
       "female": 1,
-      "mobility": 0,
-      "damage": 1,
-      "defence": 0,
-      "stealth": 0,
-      "support": 0,
-      "range": 0,
+      "spear": 1,
+      "hyper-mobile": 1,
+      "glass-cannon": 1,
       "melee": 1,
-      "tank": 0,
-      "assassin": 0,
-      "summon": 0
-    },
-    {
-      "class": "Ranger",
-      "male": 0,
-      "female": 1,
-      "mobility": 0,
-      "damage": 1,
-      "defence": 0,
-      "stealth": 0,
-      "support": 0,
-      "range": 1,
-      "melee": 0,
-      "tank": 0,
-      "assassin": 0,
-      "summon": 0
-    },
-    {
-      "class": "Berserker",
-      "male": 1,
-      "female": 0,
-      "mobility": 1,
-      "damage": 1,
-      "defence": 1,
-      "stealth": 0,
-      "support": 0,
-      "range": 0,
-      "melee": 1,
-      "tank": 1,
-      "assassin": 0,
-      "summon": 0
-    },
-    {
-      "class": "Tamer",
-      "male": 0,
-      "female": 1,
-      "mobility": 1,
-      "damage": 1,
-      "defence": 0,
-      "stealth": 0,
-      "support": 0,
-      "range": 0,
-      "melee": 1,
-      "tank": 0,
-      "assassin": 0,
-      "summon": 1
-    },
-    {
-      "class": "Valkyrie",
-      "male": 0,
-      "female": 1,
-      "mobility": 1,
-      "damage": 1,
-      "defence": 1,
-      "stealth": 0,
-      "support": 1,
-      "range": 0,
-      "melee": 1,
-      "tank": 1,
-      "assassin": 0,
-      "summon": 0
-    },
-    {
-      "class": "Musa",
-      "male": 1,
-      "female": 0,
-      "mobility": 1,
-      "damage": 1,
-      "defence": 0,
-      "stealth": 0,
-      "support": 0,
-      "range": 0,
-      "melee": 1,
-      "tank": 0,
       "assassin": 1,
-      "summon": 0
+      "info": {
+        "image": "Assets/Classes/Maewha.png",
+        "title": "Maewha",
+        "description": ""
+      }
     },
     {
-      "class": "Maehwa",
-      "male": 0,
-      "female": 1,
-      "mobility": 1,
-      "damage": 1,
-      "defence": 0,
-      "stealth": 0,
-      "support": 0,
-      "range": 0,
-      "melee": 1,
-      "tank": 0,
-      "assassin": 1,
-      "summon": 0
-    },
-    {
-      "class": "Wizard",
+      "className": "Wizard",
       "male": 1,
-      "female": 0,
-      "mobility": 1,
-      "damage": 1,
-      "defence": 0,
-      "stealth": 0,
+      "staff": 1,
+      "magic": 1,
+      "huge-damage": 1,
       "support": 1,
-      "range": 1,
-      "melee": 0,
-      "tank": 0,
-      "assassin": 0,
-      "summon": 0
+      "long-range": 1,
+      "heal": 1,
+      "info": {
+        "image": "Assets/Classes/Wizard.png",
+        "title": "Wizard",
+        "description": ""
+      }
     },
     {
-      "class": "Witch",
-      "male": 0,
+      "className": "Witch",
       "female": 1,
-      "mobility": 1,
-      "damage": 1,
-      "defence": 0,
-      "stealth": 0,
+      "staff": 1,
+      "magic": 1,
+      "huge-damage": 1,
       "support": 1,
-      "range": 1,
-      "melee": 0,
-      "tank": 0,
-      "assassin": 0,
-      "summon": 0
+      "long-range": 1,
+      "heal": 1,
+      "info": {
+        "image": "Assets/Classes/Witch.png",
+        "title": "Witch",
+        "description": ""
+      }
     },
     {
-      "class": "Kunoichi",
-      "male": 0,
+      "className": "Kunoichi",
       "female": 1,
-      "mobility": 1,
-      "damage": 1,
-      "defence": 0,
+      "sword": 1,
+      "agile": 1,
+      "combo": 1,
       "stealth": 1,
-      "support": 0,
-      "range": 0,
       "melee": 1,
-      "tank": 0,
       "assassin": 1,
-      "summon": 0
+      "info": {
+        "image": "Assets/Classes/Kunoichi.png",
+        "title": "Kunoichi",
+        "description": ""
+      }
     },
     {
-      "class": "Ninja",
+      "className": "Ninja",
       "male": 1,
-      "female": 0,
-      "mobility": 1,
-      "damage": 1,
-      "defence": 0,
+      "sword": 1,
+      "agile": 1,
+      "combo": 1,
       "stealth": 1,
-      "support": 0,
-      "range": 0,
       "melee": 1,
-      "tank": 0,
       "assassin": 1,
-      "summon": 0
+      "info": {
+        "image": "Assets/Classes/Ninja.png",
+        "title": "Ninja",
+        "description": ""
+      }
     },
     {
-      "class": "Dark Knight",
-      "male": 0,
+      "className": "Dark Knight",
       "female": 1,
-      "mobility": 1,
-      "damage": 1,
-      "defence": 0,
-      "stealth": 0,
-      "support": 0,
-      "range": 1,
+      "sword": 1,
+      "agile": 1,
+      "glass-cannon": 1,
+      "magic": 1,
+      "mid-range": 1,
       "melee": 1,
-      "tank": 0,
-      "assassin": 0,
-      "summon": 0
+      "info": {
+        "image": "Assets/Classes/Dark Knight.png",
+        "title": "Dark Knight",
+        "description": ""
+      }
     },
     {
-      "class": "Striker",
+      "className": "Striker",
       "male": 1,
-      "female": 0,
-      "mobility": 1,
-      "damage": 0,
-      "defence": 1,
-      "stealth": 0,
-      "support": 0,
-      "range": 0,
+      "gauntlet": 1,
+      "combo": 1,
+      "dodge": 1,
       "melee": 1,
-      "tank": 0,
-      "assassin": 1,
-      "summon": 0
+      "bruiser": 1,
+      "info": {
+        "image": "Assets/Classes/Striker.png",
+        "title": "Striker",
+        "description": ""
+      }
     },
     {
-      "class": "Mystic",
-      "male": 0,
+      "className": "Mystic",
+      "female": 1,
+      "gauntlet": 1,
+      "combo": 1,
+      "dodge": 1,
+      "melee": 1,
+      "bruiser": 1,
+      "info": {
+        "image": "Assets/Classes/Mystic.png",
+        "title": "Mystic",
+        "description": ""
+      }
+    },
+    {
+      "className": "Lahn",
       "female": 1,
       "mobility": 1,
-      "damage": 0,
-      "defence": 1,
-      "stealth": 0,
-      "support": 0,
-      "range": 0,
+      "glass-cannon": 1,
       "melee": 1,
-      "tank": 0,
       "assassin": 1,
-      "summon": 0
+      "flight": 1,
+      "info": {
+        "image": "Assets/Classes/Lahn.png",
+        "title": "Lahn",
+        "description": ""
+      }
     },
     {
-      "class": "Lahn",
-      "male": 0,
-      "female": 1,
-      "mobility": 1,
-      "damage": 1,
-      "defence": 0,
-      "stealth": 0,
-      "support": 0,
-      "range": 0,
-      "melee": 1,
-      "tank": 0,
-      "assassin": 1,
-      "summon": 0
-    },
-    {
-      "class": "Archer",
+      "className": "Archer",
       "male": 1,
-      "female": 0,
-      "mobility": 0,
-      "damage": 1,
-      "defence": 0,
-      "stealth": 0,
-      "support": 0,
-      "range": 1,
-      "melee": 0,
-      "tank": 0,
-      "assassin": 0,
-      "summon": 0
+      "bow": 1,
+      "agile": 1,
+      "glass-cannon": 1,
+      "long-range": 1,
+      "info": {
+        "image": "Assets/Classes/Archer.png",
+        "title": "Archer",
+        "description": ""
+      }
     },
     {
-      "class": "Shai",
-      "male": 0,
+      "className": "Shai",
       "female": 1,
-      "mobility": 0,
-      "damage": 0,
-      "defence": 1,
-      "stealth": 0,
+      "dodge": 1,
       "support": 1,
-      "range": 0,
-      "melee": 0,
       "tank": 1,
-      "assassin": 0,
-      "summon": 0
+      "heal": 1,
+      "info": {
+        "image": "Assets/Classes/Shai.png",
+        "title": "Shai",
+        "description": ""
+      }
     },
     {
-      "class": "Guardian",
-      "male": 0,
+      "className": "Guardian",
       "female": 1,
-      "mobility": 0,
-      "damage": 1,
-      "defence": 1,
-      "stealth": 0,
-      "support": 0,
-      "range": 0,
+      "axe": 1,
+      "shield": 1,
+      "aoe": 1,
       "melee": 1,
       "tank": 1,
-      "assassin": 0,
-      "summon": 0
+      "info": {
+        "image": "Assets/Classes/Guardian.png",
+        "title": "Guardian",
+        "description": ""
+      }
     },
     {
-      "class": "Hashashin",
+      "className": "Hashashin",
       "male": 1,
-      "female": 0,
-      "mobility": 1,
-      "damage": 1,
-      "defence": 0,
-      "stealth": 0,
-      "support": 0,
-      "range": 1,
+      "agile": 1,
+      "mid-range": 1,
       "melee": 1,
-      "tank": 0,
       "assassin": 1,
-      "summon": 0
+      "info": {
+        "image": "Assets/Classes/Hashashin.png",
+        "title": "Hashashin",
+        "description": ""
+      }
     },
     {
-      "class": "Nova",
-      "male": 0,
+      "className": "Nova",
       "female": 1,
-      "mobility": 0,
-      "damage": 0,
-      "defence": 1,
-      "stealth": 0,
+      "shield": 1,
       "support": 1,
-      "range": 0,
       "melee": 1,
       "tank": 1,
-      "assassin": 0,
-      "summon": 1
+      "summon": 1,
+      "info": {
+        "image": "Assets/Classes/Nova.png",
+        "title": "Nova",
+        "description": ""
+      }
     },
     {
-      "class": "Sage",
+      "className": "Sage",
       "male": 1,
-      "female": 0,
+      "spear": 1,
+      "aoe": 1,
+      "mid-range": 1,
+      "magic": 1,
+      "info": {
+        "image": "Assets/Classes/Sage.png",
+        "title": "Sage",
+        "description": ""
+      }
+    },
+    {
+      "className": "Corsair",
+      "female": 1,
+      "sword": 1,
+      "agile": 1,
+      "dodge": 1,
+      "support": 1,
+      "melee": 1,
+      "summon": 1,
+      "info": {
+        "image": "Assets/Classes/Corsair.png",
+        "title": "Corsair",
+        "description": ""
+      }
+    },
+    {
+      "className": "Maegu",
+      "female": 1,
       "mobility": 1,
-      "damage": 1,
-      "defence": 0,
-      "stealth": 0,
-      "support": 0,
+      "aoe": 1,
       "range": 1,
-      "melee": 1,
-      "tank": 0,
-      "assassin": 0,
-      "summon": 0
+      "magic": 1,
+      "summon": 1,
+      "info": {
+        "image": "Assets/Classes/Maegu.png",
+        "title": "Maegu",
+        "description": "BUNCH OF TEXT"
+      }
     },
     {
-      "class": "Corsair",
-      "male": 0,
+      "className": "Woosa",
       "female": 1,
-      "mobility": 0,
-      "damage": 0,
-      "defence": 1,
-      "stealth": 0,
+      "dodge": 1,
+      "aoe": 1,
+      "magic": 1,
       "support": 1,
-      "range": 0,
+      "mid-range": 1,
+      "info": {
+        "image": "Assets/Classes/Woosa.png",
+        "title": "Woosa",
+        "description": "BUNCH OF TEXT"
+      }
+    },
+    {
+      "className": "Drakania",
+      "female": 1,
+      "sword": 1,
+      "huge-damage": 1,
+      "tank": 1,
       "melee": 1,
-      "tank": 0,
-      "assassin": 0,
-      "summon": 1
-    },
-    {
-      "class": "Maegu",
-      "male": 0,
-      "female": 1,
-      "mobility": 0,
-      "damage": 1,
-      "defence": 1,
-      "stealth": 0,
-      "support": 0,
-      "range": 1,
-      "melee": 0,
-      "tank": 0,
-      "assassin": 0,
-      "summon": 1
-    },
-    {
-      "class": "Woosa",
-      "male": 0,
-      "female": 1,
-      "mobility": 0,
-      "damage": 0,
-      "defence": 1,
-      "stealth": 0,
-      "support": 1,
-      "range": 1,
-      "melee": 0,
-      "tank": 0,
-      "assassin": 0,
-      "summon": 0
+      "info": {
+        "image": "Assets/Classes/Drakania.png",
+        "title": "Drakania",
+        "description": "BUNCH OF TEXT"
+      }
     }
   ]
 }
